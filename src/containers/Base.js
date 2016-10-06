@@ -24,12 +24,17 @@ class Base extends Component {
 
   constructor(props) {
     super(props);
+    this.print = this.print.bind(this);
   }
-  
+
+  print() {
+    this.props.navigator.pop();
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <TouchableOpacity onPress={this.props.action}>
+        <TouchableOpacity onPress={this.print}>
           <Text>
             {this.props.name}
           </Text>

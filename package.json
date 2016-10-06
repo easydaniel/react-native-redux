@@ -1,0 +1,31 @@
+{
+  "name": "react-native-redux",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easydaniel/react-native-redux.git"
+  },
+  "author": {
+    "name": "Tan Chien",
+    "url": "https://github.com/easydaniel"
+  },
+  "keywords": [
+    "boilerplate",
+    "react",
+    "redux",
+    "react-native"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native": "0.34.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "redux-actions": "^0.12.0",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.1.0"
+  }
+}
